@@ -1,0 +1,11 @@
+[ApiController]
+[Route("[controller]")]
+public class WeatherForecastControllers : ControllerBase
+{
+    [HttpGet]
+    public IEnumerable<WeatherForecast>
+        Get()
+    {
+        // Retorna dados de exemplo
+    }
+}
